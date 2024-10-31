@@ -1,0 +1,67 @@
+.queries {
+	list-style: none;
+}
+
+.queries .postbox {
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+.queries .postbox {
+	position: relative;
+}
+
+.query-toolbar {
+	position: absolute;
+	right: 10px;
+	top:  0;
+}
+
+.conditions {
+	padding: 0 10px;
+	background: #f5f5f5;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+}
+
+.conditions .remove {
+	float: right;
+}
+
+.queries .postbox p label,
+.queries .postbox h4 label {
+	vertical-align: baseline;
+
+}
+
+.queries .postbox p label:hover,
+.queries .postbox h4 label:hover {
+}
+
+.queries .postbox label input[type="radio"] {
+	vertical-align: baseline;
+}
+
+.queries .postbox label input[type="radio"] + span {
+	color: #999;
+}
+.queries .postbox label.checked input[type="radio"] + span,
+.queries .postbox label input[type="radio"]:checked + span {
+	color: inherit;
+}
+
+
+.queries .postbox td,
+.queries .postbox th {
+	border-top: 1px solid #ddd;
+}
+
+.exclude-terms .categorychecklist {
+	border: 1px solid #eee;
+	border-width: 1px 0;
+}
+
+.term-list-toggle {
+	margin-left: 20px;
+	float: right;
+	font-weight: normal;
+}
